@@ -1,0 +1,84 @@
+.main-temporadas {
+    background-color: $colornueve;
+}
+
+
+.main-temporadas h1 {
+    font-family: "typo-arnold";
+    padding: 15px;
+    margin: 20px;
+    width: 1000px;
+    background-color: $colorocho;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.main-temporadas section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.main-temporadas a:hover {
+    color: white;
+}
+
+.main-temporadas img {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+@media (max-width:500px) {
+    .main-temporadas img {
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+        width: 280px;
+
+    }
+}
+
+.main-temporadas div {
+    padding: 10px;
+    margin: 30px;
+    height: 480px;
+    width: 400px;
+    background-color: $colorcinco;
+    border-radius: 10px;
+
+}
+
+.main-temporadas a {
+    height: 30px;
+    background-color: $colorcuatro;
+    color: black;
+    text-decoration: none;
+    font-family: "typo-arnold";
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+@media(max-width: 400px) {
+    .main-temporadas div {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 400px;
+
+        h1 {
+            width: 300px;
+        }
+    }
+}

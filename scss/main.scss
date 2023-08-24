@@ -1,0 +1,93 @@
+@import "./partials/variables";
+@import "./partials/contacto";
+@import "./partials/footer";
+@import "./partials/header";
+@import "./partials/personajes";
+@import "./partials/soundtrack";
+@import "./partials/temporadas";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: $colornueve;
+
+    h1 {
+        font-family: "typo-arnold";
+        padding: 15px;
+        margin: 20px;
+        width: 1000px;
+        background-color: $colorocho;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+}
+
+.contenedor-index {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+    img {
+        height: 250px;
+        padding: 15px;
+        margin: 10px;
+        margin-right: 25px;
+        display: flex;
+        justify-content: center;
+        border-radius: 15%;
+    }
+
+    .img:hover {
+        transform: translateY(-3%);
+    }
+
+    h2 {
+        font-family: "typo-arnold";
+        padding: 15px;
+        margin: 10px;
+        width: 200px;
+        background-color: $colorcuatro;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    p {
+        padding: 20px;
+        margin: 20px;
+        width: 600px;
+        background-color: $colorcinco;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width: 400px){
+    .contenedor-index {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+p{
+    width: 300px;
+}
+}
+}

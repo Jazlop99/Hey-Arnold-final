@@ -1,0 +1,164 @@
+.main-contacto {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: $colornueve
+}
+
+.formulario {
+    background-color: $colorcinco;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+
+    p {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;   
+
+        input {
+            padding: 10px;
+            margin: 20px;   
+             display: flex;
+            justify-content: center;
+            background-color: rgb(168, 213, 101);
+        
+        }
+    }
+}
+
+.cuadro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: $colorcuatro;
+    height: 450px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+
+.texto-uno{
+    font-family: "typo-arnold";
+    padding: 15px;
+    margin: 20px;
+    height: 100px;
+    background-color: $colorocho;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+}
+
+.texto-dos{
+    font-family: "typo-arnold";
+    padding: 15px;
+    margin: 20px;
+    height: 100px;
+    background-color: $colordos;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.img {
+    height: 250px;
+    padding: 15px;
+    margin: 10px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15%;
+}
+
+@media(max-width: 400px){
+    .main-contacto {
+        height: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: $colornueve;
+        flex-wrap: wrap;
+    }
+    
+    .formulario {
+        background-color: #fef190;
+        padding: 10px;
+        margin: 5px;
+        height: 400px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+    
+        p {
+            padding: 10px;
+            margin: 10px;
+            display: flex;
+            justify-content: center;   
+    
+            input {
+                padding: 10px;
+                margin: 20px;   
+                 display: flex;
+                justify-content: center;
+                background-color: rgb(168, 213, 101);
+            
+            }
+        }
+    }
+    
+    .cuadro {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: #a3c657;
+        height: 200px;
+        padding: 10px;
+        margin: 10px;
+        width: 250px;
+        border-radius: 10px;
+        align-content: center;
+    
+    .texto-uno{
+        font-family: "typo-arnold";
+        padding: 5px;
+        margin: 5px;
+        height: 30px;
+        background-color: #ed846c;
+        border-radius: 10px;
+        display: flex;
+    }
+    }
+    
+    .texto-dos{
+        font-family: "typo-arnold";
+        padding: 15px;
+        height: 100px;
+        background-color: $colordos;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+    
+    
+    }
+    
+    .img {
+width: 280px;
+        padding: 15px;
+        margin: 10px;
+        margin-right: 25px;
+        display: flex;
+        justify-content: center;
+        border-radius: 15%;
+    }
+}
